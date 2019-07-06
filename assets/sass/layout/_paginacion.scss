@@ -1,0 +1,28 @@
+.pagination-section {
+  background-color: $platinum;
+  padding: 3rem;
+}
+
+.pagination {
+
+  a {
+  color: $eerie;
+  }
+  .disabled {
+    color: $light-grey;
+  }
+
+  .current {
+    background-color: $nickel;
+    color: $white;
+  }
+}
+
+.my-rounded-left {
+  border-top-left-radius: 5rem !important;
+  border-bottom-left-radius: 5rem !important;
+}
+.my-rounded-right {
+  border-top-right-radius: 5rem !important;
+  border-bottom-right-radius: 5rem !important;
+}

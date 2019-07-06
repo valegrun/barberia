@@ -1,0 +1,22 @@
+
+.navbar {
+  background-color:$eerie;
+
+}
+
+.navbar-brand {
+  padding-top: 20px;
+
+}
+
+a {
+  color: white;
+}
+
+a.nav-link.active{
+  color: $ruddy;
+}
+
+a:hover{
+  color: $ruddy;
+}

@@ -1,0 +1,47 @@
+h1 {
+  font-size: $xx-large;
+  color: $white;
+  font-family: $playfair;
+  font-style: italic;
+}
+
+h3 {
+  font-family: $playfair;
+  font-weight: $extra-light;
+  color: $eerie;
+  font-size: $x-large;
+  margin-bottom: .3em;
+  font-style:italic;
+}
+
+h4 {
+  font-size: $large;
+  margin-top: .3em;
+  color: $spanish;
+  font-weight: $extra-light;
+}
+
+p {
+  font-weight: $extra-light;
+  color: $nickel;
+}
+
+.main-section {
+  &__text-emphasis {
+    color: $ruddy;
+  }
+
+  &__date {
+    font-family: $playfair;
+    font-size: $medium;
+    color: $nickel;
+    font-weight: $extra-light;
+  }
+
+  &__author {
+    p {
+      font-weight: $extra-light;
+      color: $nickel;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+
+.header {
+  background-image: url(../img/post-image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 25% 25% 5% 25%;
+  text-align: center;
+
+}
+
+.header__title {
+  font-style: italic;
+}
+
+i {
+  color: $white;
+  margin-top: 10rem;
+
+}

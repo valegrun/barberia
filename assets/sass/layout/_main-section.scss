@@ -1,0 +1,28 @@
+.main-section {
+  font-weight: $regular;
+
+  p {
+    margin-top: 2rem;
+    line-height: 2.5em;
+  }
+
+  &__author {
+    border-top: 1px solid $light-grey;
+    padding-top: 5rem;
+    padding-bottom:5rem;
+
+    p {
+      margin:0;
+    }
+
+    img {
+      border-radius: 50%;
+      border: solid 1px $light-grey;
+    }
+  }
+
+  &__share {
+    padding-top: 4em;
+    padding-bottom: 5em;
+  }
+}
